@@ -33,7 +33,7 @@ After that click on the 'ok' button. The task should be edited with the new text
 To delete a task click on the 'delete' button. You will be prompted to confirm whether to delete the task 
 ![Todo List App Screenshot](./screenshots/deleting.png)
 .If you choose ok, the task should be deleted and you should see the following page.
-![Todo List App Screenshot](./screenshots/delete.png)
+![Todo List App Screenshot](./screenshots/deleted.png)
 
 ## To run the app
 You should have node installed.
