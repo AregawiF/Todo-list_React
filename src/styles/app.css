@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.main {
+    background-image: url('./../assets/notepad_background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    width: 50vw;
+    background: #e8e7e7;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+}
+
+.heading {
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.taskcontainer {
+    width: 100%;
+}
+
+.tasklist {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.text{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.checkbox{
+    height: 1rem;
+    min-width: 1rem;
+    align-self: center;
+}
+.left{
+    display: flex;
+    width: 80%;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+input{
+    font-size: 1rem;
+}
+
+.editButton,
+.deleteButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.editButton {
+    background-color: #2487f2;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #dc4453;
+    color: white;
+}
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.inputContainer input {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.addButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #218838;
+}
